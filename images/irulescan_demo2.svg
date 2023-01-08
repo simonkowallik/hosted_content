@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="terminal" baseProfile="full" viewBox="0 0 640 172" width="640" version="1.1">
+    <defs>
+        <termtosvg:template_settings xmlns:termtosvg="https://github.com/nbedos/termtosvg">
+            <termtosvg:screen_geometry columns="80" rows="10"/>
+            <termtosvg:animation type="css"/>
+        </termtosvg:template_settings>
+        <style type="text/css" id="generated-style"><![CDATA[#screen {
+                font-family: 'DejaVu Sans Mono', monospace;
+                font-style: normal;
+                font-size: 14px;
+            }
+
+        text {
+            dominant-baseline: text-before-edge;
+            white-space: pre;
+        }
+    
+            :root {
+                --animation-duration: 8997ms;
+            }
+
+            @keyframes roll {
+                0.000%{transform:translateY(0px)}
+7.691%{transform:translateY(-204px)}
+17.995%{transform:translateY(-408px)}
+28.387%{transform:translateY(-612px)}
+28.565%{transform:translateY(-816px)}
+44.426%{transform:translateY(-1020px)}
+100.000%{transform:translateY(-1020px)}
+            }
+
+            #screen_view {
+                animation-duration: 8997ms;
+                animation-iteration-count:infinite;
+                animation-name:roll;
+                animation-timing-function: steps(1,end);
+                animation-fill-mode: forwards;
+            }
+        ]]></style>
+        <style type="text/css" id="user-style">
+            /* The colors defined below are the default 16 colors used for rendering text of the terminal. Adjust
+               them as needed.
+               dracula color theme */
+            .foreground {fill: #e9e9f4;}
+            .background {fill: #282936;}
+            .color0 {fill: #282936;}
+            .color1 {fill: #ea51b2;}
+            .color2 {fill: #ebff87;}
+            .color3 {fill: #00f769;}
+            .color4 {fill: #62d6e8;}
+            .color5 {fill: #b45bcf;}
+            .color6 {fill: #a1efe4;}
+            .color7 {fill: #e9e9f4;}
+            .color8 {fill: #626483;}
+            .color9 {fill: #b45bcf;}
+            .color10 {fill: #3a3c4e;}
+            .color11 {fill: #4d4f68;}
+            .color12 {fill: #62d6e8;}
+            .color13 {fill: #f1f2f8;}
+            .color14 {fill: #00f769;}
+            .color15 {fill: #f7f7fb;}
+        </style>
+    </defs>
+    <svg id="screen" width="640" height="170" viewBox="0 0 640 170" preserveAspectRatio="xMidYMin slice"><rect class="background" height="100%" width="100%" x="0" y="0"/><defs><g id="g1"><text x="0" textLength="16" class="foreground">$ </text><text x="16" textLength="8" class="background"> </text></g><g id="g2"><text x="0" textLength="640" class="foreground">$ docker run -i --rm -v $PWD/tests/tcl/catch.tcl:/scandir/catch.tcl simonkowalli</text></g><g id="g3"><text x="0" textLength="144" class="foreground">k/irulescan | yq .</text><text x="144" textLength="8" class="background"> </text></g><g id="g4"><text x="0" textLength="144" class="foreground">k/irulescan | yq .</text></g><g id="g5"><text x="0" textLength="8" class="background"> </text></g><g id="g6"><text x="0" textLength="24" class="foreground">---</text></g><g id="g7"><text x="0" textLength="80" class="color6">/catch.tcl</text><text x="80" textLength="24" class="foreground">: |</text></g><g id="g8"><text x="0" textLength="344" class="color2">  WARNING: Unquoted expr at `1` in `expr 1`</text></g><g id="g9"><text x="0" textLength="344" class="color2">  WARNING: Unquoted expr at `2` in `expr 2`</text></g><g id="g10"><text x="0" textLength="16" class="foreground">$ </text></g><g id="g11"><text x="0" textLength="32" class="foreground">exit</text></g></defs><g id="screen_view"><g><rect x="16" y="0" width="8" height="17" class="foreground"/><use xlink:href="#g1" y="0"/></g><g><use xlink:href="#g2" y="204"/><rect x="144" y="221" width="8" height="17" class="foreground"/><use xlink:href="#g3" y="221"/></g><g><use xlink:href="#g2" y="408"/><use xlink:href="#g4" y="425"/><rect x="0" y="442" width="8" height="17" class="foreground"/><use xlink:href="#g5" y="442"/></g><g><use xlink:href="#g2" y="612"/><use xlink:href="#g4" y="629"/><use xlink:href="#g6" y="646"/><use xlink:href="#g7" y="663"/><use xlink:href="#g8" y="680"/><use xlink:href="#g9" y="697"/><rect x="0" y="731" width="8" height="17" class="foreground"/><use xlink:href="#g5" y="731"/></g><g><use xlink:href="#g2" y="816"/><use xlink:href="#g4" y="833"/><use xlink:href="#g6" y="850"/><use xlink:href="#g7" y="867"/><use xlink:href="#g8" y="884"/><use xlink:href="#g9" y="901"/><rect x="16" y="935" width="8" height="17" class="foreground"/><use xlink:href="#g1" y="935"/></g><g><use xlink:href="#g2" y="1020"/><use xlink:href="#g4" y="1037"/><use xlink:href="#g6" y="1054"/><use xlink:href="#g7" y="1071"/><use xlink:href="#g8" y="1088"/><use xlink:href="#g9" y="1105"/><use xlink:href="#g10" y="1139"/><use xlink:href="#g11" y="1156"/><rect x="0" y="1173" width="8" height="17" class="foreground"/><use xlink:href="#g5" y="1173"/></g></g></svg>
+</svg>

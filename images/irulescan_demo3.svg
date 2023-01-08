@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="terminal" baseProfile="full" viewBox="0 0 640 172" width="640" version="1.1">
+    <defs>
+        <termtosvg:template_settings xmlns:termtosvg="https://github.com/nbedos/termtosvg">
+            <termtosvg:screen_geometry columns="80" rows="10"/>
+            <termtosvg:animation type="css"/>
+        </termtosvg:template_settings>
+        <style type="text/css" id="generated-style"><![CDATA[#screen {
+                font-family: 'DejaVu Sans Mono', monospace;
+                font-style: normal;
+                font-size: 14px;
+            }
+
+        text {
+            dominant-baseline: text-before-edge;
+            white-space: pre;
+        }
+    
+            :root {
+                --animation-duration: 9164ms;
+            }
+
+            @keyframes roll {
+                0.000%{transform:translateY(0px)}
+17.034%{transform:translateY(-204px)}
+22.927%{transform:translateY(-408px)}
+23.363%{transform:translateY(-612px)}
+23.614%{transform:translateY(-816px)}
+45.439%{transform:translateY(-1020px)}
+100.000%{transform:translateY(-1020px)}
+            }
+
+            #screen_view {
+                animation-duration: 9164ms;
+                animation-iteration-count:infinite;
+                animation-name:roll;
+                animation-timing-function: steps(1,end);
+                animation-fill-mode: forwards;
+            }
+        ]]></style>
+        <style type="text/css" id="user-style">
+            /* The colors defined below are the default 16 colors used for rendering text of the terminal. Adjust
+               them as needed.
+               dracula color theme */
+            .foreground {fill: #e9e9f4;}
+            .background {fill: #282936;}
+            .color0 {fill: #282936;}
+            .color1 {fill: #ea51b2;}
+            .color2 {fill: #ebff87;}
+            .color3 {fill: #00f769;}
+            .color4 {fill: #62d6e8;}
+            .color5 {fill: #b45bcf;}
+            .color6 {fill: #a1efe4;}
+            .color7 {fill: #e9e9f4;}
+            .color8 {fill: #626483;}
+            .color9 {fill: #b45bcf;}
+            .color10 {fill: #3a3c4e;}
+            .color11 {fill: #4d4f68;}
+            .color12 {fill: #62d6e8;}
+            .color13 {fill: #f1f2f8;}
+            .color14 {fill: #00f769;}
+            .color15 {fill: #f7f7fb;}
+        </style>
+    </defs>
+    <svg id="screen" width="640" height="170" viewBox="0 0 640 170" preserveAspectRatio="xMidYMin slice"><rect class="background" height="100%" width="100%" x="0" y="0"/><defs><g id="g1"><text x="0" textLength="16" class="foreground">$ </text><text x="16" textLength="8" class="background"> </text></g><g id="g2"><text x="0" textLength="584" class="foreground">$ curl -s http://localhost/scan/ --data-binary @tests/basic/dangerous.tcl</text><text x="584" textLength="8" class="background"> </text></g><g id="g3"><text x="0" textLength="584" class="foreground">$ curl -s http://localhost/scan/ --data-binary @tests/basic/dangerous.tcl</text></g><g id="g4"><text x="0" textLength="8" class="background"> </text></g><g id="g5"><text x="0" textLength="384" class="foreground">WARNING: Unquoted expr at `1` in `expr 1 + $one`</text></g><g id="g6"><text x="0" textLength="384" class="foreground">WARNING: Unquoted expr at `+` in `expr 1 + $one`</text></g><g id="g7"><text x="0" textLength="504" class="foreground">DANGEROUS: Dangerous unquoted expr at `$one` in `expr 1 + $one`</text></g><g id="g8"><text x="0" textLength="16" class="foreground">$ </text></g><g id="g9"><text x="0" textLength="32" class="foreground">exit</text></g></defs><g id="screen_view"><g><rect x="16" y="0" width="8" height="17" class="foreground"/><use xlink:href="#g1" y="0"/></g><g><rect x="584" y="204" width="8" height="17" class="foreground"/><use xlink:href="#g2" y="204"/></g><g><use xlink:href="#g3" y="408"/><rect x="0" y="425" width="8" height="17" class="foreground"/><use xlink:href="#g4" y="425"/></g><g><use xlink:href="#g3" y="612"/><use xlink:href="#g5" y="629"/><use xlink:href="#g6" y="646"/><use xlink:href="#g7" y="663"/><rect x="0" y="697" width="8" height="17" class="foreground"/><use xlink:href="#g4" y="697"/></g><g><use xlink:href="#g3" y="816"/><use xlink:href="#g5" y="833"/><use xlink:href="#g6" y="850"/><use xlink:href="#g7" y="867"/><rect x="16" y="901" width="8" height="17" class="foreground"/><use xlink:href="#g1" y="901"/></g><g><use xlink:href="#g3" y="1020"/><use xlink:href="#g5" y="1037"/><use xlink:href="#g6" y="1054"/><use xlink:href="#g7" y="1071"/><use xlink:href="#g8" y="1105"/><use xlink:href="#g9" y="1122"/><rect x="0" y="1139" width="8" height="17" class="foreground"/><use xlink:href="#g4" y="1139"/></g></g></svg>
+</svg>
